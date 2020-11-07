@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(202, 197, 199);
+    font-family:verdana ;
+  }
+h1 {
+    color:black;
+    font-family:verdana;
+  }
+h2 {
+    color:black;
+    font-family:verdana;
+  }
+h3 {
+    color:black;
+    font-family:verdana;
+  }
+p {
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 20px
+  }
+
+  .navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 23.315%; 
+    text-align: center;
+  }
+  .navbar a:hover {
+    background-color: rgb(44, 39, 43);
+  }
+  .navbar a.active {
+    background-color: rgb(166, 165, 179);
+  }
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 50%;
+      text-align: left;
+    }
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+  }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .floatRight{
+      float:right;margin-left:20px
+    }
